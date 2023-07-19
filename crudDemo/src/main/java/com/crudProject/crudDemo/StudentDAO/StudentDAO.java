@@ -10,4 +10,5 @@ public interface StudentDAO {
 	List<Student> findAllStudents();
 	List<Student> findFilteredStudents(String fn);
 	void update(Student newStudent);
+	void delete(int id);
 }
